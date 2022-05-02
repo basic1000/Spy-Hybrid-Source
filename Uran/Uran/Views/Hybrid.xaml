@@ -1,0 +1,15 @@
+﻿<Page
+    x:Class="Uran_Launcher.Views.Hybrid"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Uran_Launcher.Views"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Height="400"
+    Width="614">
+    <Grid>
+        <Image Source="/Assets/spyfnhybrid.png" Margin="0,-58,0,58"/>
+        <Button x:Uid="HybridLaunchBtn" Click="launchbtn_Click" FontSize="30" x:Name="launchbtn" Content="Launch" Margin="0,227,0,0" VerticalAlignment="Top" Height="53" Width="229" HorizontalAlignment="Center"/>
+    </Grid>
+</Page>

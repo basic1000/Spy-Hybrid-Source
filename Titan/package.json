@@ -1,0 +1,28 @@
+{
+  "name": "TITAN",
+  "version": "1.0.0",
+  "description": "TITAN BACKEND BETA",
+  "main": "index.js",
+  "dependencies": {
+    "axios": "^0.21.4",
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "fs": "^0.0.1-security",
+    "path": "^0.12.7",
+    "random": "^3.0.6",
+    "uuid": "^8.1.0"
+  },
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+"
+  },
+  "author": "anarchie",
+  "license": "MIT",
+  "bugs": {
+    "url": ""
+  },
+  "homepage": ""
+}
